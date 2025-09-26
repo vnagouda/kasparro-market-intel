@@ -33,3 +33,15 @@ st.dataframe(df.head(200))
 st.markdown("---")
 st.caption(f"Generated at: {ins.get('generated_at_utc', 'N/A')}")
 
+if os.path.exists("phase5_d2c_insights.json"):
+    st.subheader("📦 Phase 5: D2C Funnel & SEO Insights")
+
+    phase5 = json.load(open("phase5_d2c_insights.json"))
+    st.json(phase5, expanded=False)
+
+    if "sample_creatives" in phase5:
+        st.subheader("🎨 Sample AI-Generated Creatives")
+        st.write("**Ad Headline:**", phase5["sample_creatives"].get("ad_headline"))
+        st.write("**SEO Meta:**", phase5["sample_creatives"].get("seo_meta"))
+        st.write("**Product Description:**", phase5["sample_creatives"].get("pdp_text"))
+

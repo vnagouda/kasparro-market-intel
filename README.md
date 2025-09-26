@@ -95,6 +95,7 @@ streamlit run app.py
 
 ![Executive Report](screenshots/ReportSS1.png)
 ![Executive Report](screenshots/ReportSS2.png)
+![Executive Report](screenshots/ReportSS3.png)
 
 [📄 View full PDF screenshot](screenshots/ScreenshotHTMLReport.pdf)
 
