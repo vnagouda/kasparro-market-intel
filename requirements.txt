@@ -1,0 +1,4 @@
+# Kasparro Market Intelligence - Requirements
+
+pandas
+streamlit

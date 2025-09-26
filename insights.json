@@ -1,0 +1,130 @@
+{
+  "generated_at_utc": "2025-09-26T14:56:38.931435+00:00",
+  "methodology": {
+    "opportunity_score": "0.5*z_installs + 0.4*z_rating + 0.1*z_comp",
+    "confidence": "min(1, sqrt(n_apps/50)) * variance_penalty_on_rating_dispersion"
+  },
+  "top_categories": [
+    {
+      "primary_category": "Education",
+      "n_apps": 130,
+      "avg_rating": 4.375968992248062,
+      "med_installs": 1000000.0,
+      "sum_reviews": 23165500.0,
+      "z_installs": 0.8705347754172605,
+      "z_rating": 1.1249981151801913,
+      "z_comp": 0.4821858113579645,
+      "opportunity_score": 0.9334852149165033,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Weather",
+      "n_apps": 82,
+      "avg_rating": 4.244,
+      "med_installs": 1000000.0,
+      "sum_reviews": 14604735.0,
+      "z_installs": 0.8705347754172605,
+      "z_rating": 0.2011613375235214,
+      "z_comp": 0.6147097662478598,
+      "opportunity_score": 0.5772028993428248,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Shopping",
+      "n_apps": 223,
+      "avg_rating": 4.2522388059701495,
+      "med_installs": 1000000.0,
+      "sum_reviews": 94862756.0,
+      "z_installs": 0.8705347754172605,
+      "z_rating": 0.2588363400339191,
+      "z_comp": 0.2254206487587924,
+      "opportunity_score": 0.5613439885980772,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Social",
+      "n_apps": 280,
+      "avg_rating": 4.254918032786885,
+      "med_installs": 1000000.0,
+      "sum_reviews": 533576829.0,
+      "z_installs": 0.8705347754172605,
+      "z_rating": 0.2775920206435875,
+      "z_comp": 0.06804845232704176,
+      "opportunity_score": 0.5531090411987695,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Entertainment",
+      "n_apps": 111,
+      "avg_rating": 4.136036036036036,
+      "med_installs": 5000000.0,
+      "sum_reviews": 47570716.0,
+      "z_installs": 1.415973242695888,
+      "z_rating": -0.5546304501717707,
+      "z_comp": 0.5346432101685481,
+      "opportunity_score": 0.5395987622960905,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Photography",
+      "n_apps": 322,
+      "avg_rating": 4.182894736842105,
+      "med_installs": 3000000.0,
+      "sum_reviews": 204297410.0,
+      "z_installs": 1.2428544110274737,
+      "z_rating": -0.22660043023735607,
+      "z_comp": -0.04791000820161661,
+      "opportunity_score": 0.5259960325986327,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Art_And_Design",
+      "n_apps": 65,
+      "avg_rating": 4.358064516129032,
+      "med_installs": 100000.0,
+      "sum_reviews": 1714440.0,
+      "z_installs": 0.09019140860979784,
+      "z_rating": 0.9996594788712634,
+      "z_comp": 0.6616453336046977,
+      "opportunity_score": 0.511124029213874,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Health_And_Fitness",
+      "n_apps": 306,
+      "avg_rating": 4.261450381679389,
+      "med_installs": 500000.0,
+      "sum_reviews": 30845186.0,
+      "z_installs": 0.6356274358235011,
+      "z_rating": 0.32332112752375936,
+      "z_comp": -0.0037353565716515156,
+      "opportunity_score": 0.44676863326408917,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Game",
+      "n_apps": 1121,
+      "avg_rating": 4.281284916201118,
+      "med_installs": 1000000.0,
+      "sum_reviews": 1415536650.0,
+      "z_installs": 0.8705347754172605,
+      "z_rating": 0.46217095994826046,
+      "z_comp": -2.2538816739729985,
+      "opportunity_score": 0.3947476042906346,
+      "confidence": 0.9710005918713235
+    },
+    {
+      "primary_category": "Parenting",
+      "n_apps": 60,
+      "avg_rating": 4.3,
+      "med_installs": 100000.0,
+      "sum_reviews": 958331.0,
+      "z_installs": 0.09019140860979784,
+      "z_rating": 0.593184180673885,
+      "z_comp": 0.6754499122390618,
+      "opportunity_score": 0.3499143677983591,
+      "confidence": 0.9710005918713235
+    }
+  ],
+  "llm_summary": "Here are 4 actionable recommendations, based on the category data, aimed at maximizing growth potential:\n\n*   **Prioritize Education:** Invest heavily in the Education category. High score, strong user ratings and installs, and relatively lower competition make it the most promising for rapid growth.\n*   **Consider Art & Design or Parenting Niches:** Explore developing apps within the \"Art_And_Design\" or \"Parenting\" categories. While the median installs are lower, these niches have a relatively high score compared to competition, and strong ratings, suggesting unmet user needs.\n*   **De-prioritize Game & Photography:** Avoid or significantly reduce investment in \"Game\" and \"Photography\". Both exhibit high competition and comparatively lower scores, indicating a saturated market and limited growth potential.\n*   **Analyze Weather Category More Deeply:** Investigate *why* \"Weather\" is underperforming its potential. Median installs are high, but a lower score might indicate issues with user satisfaction or feature differentiation that need addressing.\n"
+}
