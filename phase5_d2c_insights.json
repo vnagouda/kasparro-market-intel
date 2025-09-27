@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-09-26T14:56:56.605627+00:00",
+  "generated_at_utc": "2025-09-27T12:28:47.942502+00:00",
   "insights": {
     "found_sheets": [
       "Sheet1"
@@ -193,6 +193,6 @@
     "ad_headline": "Level Up Your Wireless Earbuds Today.",
     "seo_meta": "Shop Wireless Earbuds with quality and value. Free returns.",
     "pdp_text": "Wireless Earbuds built for everyday use with durable materials and clean design.",
-    "note": "Gemini error fallback: Extra data: line 5 column 4 (char 463)"
+    "note": "Gemini error fallback: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
   }
 }
