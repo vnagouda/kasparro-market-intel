@@ -96,11 +96,9 @@ streamlit run app.py
 ![Executive Report](screenshots/ReportSS1.png)
 ![Executive Report](screenshots/ReportSS2.png)
 
-[📄 View full PDF screenshot](screenshots/ScreenshotHTMLReport.pdf)
-
 ### Streamlit Dashboard
 
-![Streamlit Dashboard](screenshots/top_categories.png)
+[📄 View full PDF screenshot](screenshots/ScreenshotHTMLReport.pdf)
 
 ---
 
